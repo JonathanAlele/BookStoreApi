@@ -1,6 +1,35 @@
 @BookStoreApi_HostAddress = http://localhost:5128
 
-GET {{BookStoreApi_HostAddress}}/weatherforecast/
+GET {{BookStoreApi_HostAddress}}/api/books/
 Accept: application/json
 
 ###
+
+GET {{BookStoreApi_HostAddress}}/api/books/66240d77b118b9272208875d
+Accept: application/json
+
+###
+POST {{BookStoreApi_HostAddress}}/api/books/
+Content-Type: application/json
+
+{
+  "Name": "Captain Underpants",
+  "Price": 43.15,
+  "Category": "Children",
+  "Author": "I forgot"
+}
+
+###
+PUT {{BookStoreApi_HostAddress}}/api/books?id=66240d77b118b9272208875d
+Content-Type: application/json
+
+{
+  "Name": "Captain Underpants",
+  "Price": 16.95,
+  "Category": "Children",
+  "Author": "JK ROwling"
+}
+
+###
+DELETE {{BookStoreApi_HostAddress}}/api/books?id=66240bd6b118b9272208875b
+Accept: application/json
