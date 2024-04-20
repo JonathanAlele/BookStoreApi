@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "6623f9304222d32cd076d005"
+  },
+  "Name": "Design Patterns",
+  "Price": 54.93,
+  "Category": "Computers",
+  "Author": "Ralph Johnson"
+},
+{
+  "_id": {
+    "$oid": "6623f9304222d32cd076d006"
+  },
+  "Name": "Clean Code",
+  "Price": 43.15,
+  "Category": "Computers",
+  "Author": "Robert C. Martin"
+},
+{
+  "_id": {
+    "$oid": "66240d77b118b9272208875d"
+  },
+  "Name": "Captain Underpants",
+  "Price": "16.95",
+  "Category": "Children",
+  "Author": "JK ROwling"
+}]
